@@ -1,0 +1,13 @@
+first_no=int(input("Enter Your Fist no :"))
+Second_no=int(input("Enter Your Second no :"))
+output=input("The Mathmatichl (+,-,*,/):")
+if output =="+":
+    print(first_no+Second_no)
+elif output =="-":
+    print(first_no-Second_no)
+elif output =="*":
+    print(first_no*Second_no)
+elif output =="/":
+    print(first_no/Second_no)
+else:
+    print("Error")
